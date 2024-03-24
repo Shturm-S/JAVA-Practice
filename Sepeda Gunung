@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package JAVAPractice;
+
+/**
+ *
+ * @author M S I
+ */
+
+class SepedaGunung extends Sepeda {
+int setSadel;
+
+public void setSadel(int nilaisetSadel) {
+setSadel = setSadel + nilaisetSadel;
+System.out.println("Tinggi Sadel : " +setSadel);
+}
+}
+
