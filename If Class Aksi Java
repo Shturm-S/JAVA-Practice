@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package JAVAPractice;
+import java.util.Scanner;
+/**
+ *
+ * @author M S I
+ */
+public class IfClassAksi {
+    public static void main (String [] args)
+    {
+     double tot_beli;
+     Scanner input = new Scanner (System.in);
+     IfClass fungsiif = new IfClass ();
+     
+     System.out.println ("Total pembelian : Rp. ");
+     fungsiif.TotBeli = input.nextDouble ();
+     
+    System.out.println ("Total pembelian : Rp. " + fungsiif.getPotongan ());
+    System.out.println ("Total pembelian : Rp. " + fungsiif.JumlahBayar ());
+    }
+    
+}
